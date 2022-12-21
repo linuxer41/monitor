@@ -28,7 +28,7 @@ services:
 
   cadvisor:
     container_name: cadvisor
-    image: gcr.io/google-containers/cadvisor
+    image: gcr.io/cadvisor/cadvisor
     restart: unless-stopped
     network_mode: host
     privileged: true
